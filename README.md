@@ -1369,27 +1369,7 @@ section3:addKeybind("Toggle Keybind", Enum.KeyCode.RightControl, function()
     --Nothing
 end)
 
-_G.Music1 = "rbxassetid://7038992869"   
 
-Instance.new("Sound", game:GetService("Workspace")).Name = "MUSIC_FUNCTION1"
-Instance.new("Sound", game:GetService("Workspace")).Volume = 5
-Instance.new("Sound", game:GetService("Workspace")).Looped = true
-
-section6:addToggle("2T FLOW x ไม่มีเหมือนเขา", false, function(v)
-    game.workspace["MUSIC_FUNCTION1"].SoundId = _G.Music1 
-    game.workspace["MUSIC_FUNCTION1"].Playing = v
-end)
-
-_G.Music2 = "rbxassetid://7038970672"   
-
-Instance.new("Sound", game:GetService("Workspace")).Name = "MUSIC_FUNCTION1"
-Instance.new("Sound", game:GetService("Workspace")).Volume = 5
-Instance.new("Sound", game:GetService("Workspace")).Looped = true
-
-section6:addToggle("ไม่มีเหมือนเขา", false, function(v)
-    game.workspace["MUSIC_FUNCTION1"].SoundId = _G.Music2
-    game.workspace["MUSIC_FUNCTION1"].Playing = v
-end)
 
 
 local vu = game:GetService("VirtualUser")
